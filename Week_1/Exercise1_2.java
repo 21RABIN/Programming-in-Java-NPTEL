@@ -12,15 +12,13 @@ public class Exercise1_2 {
 
 //Use if...else ladder to find the largest among 3 numbers and store the largest number in a variable called result.
 		if (x < y && z < y) {
-			result += y;
-			System.out.print(result);
+			result = y;
 		} else if (x < z && y < z) {
-			result += z;
-			System.out.print(result);
+			result = z;
 		} else {
-			result += x;
-			System.out.print(result);
+			result = x;
 		}
+System.out.println(result);
 
 	}
 }
